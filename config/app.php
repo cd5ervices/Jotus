@@ -135,6 +135,10 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
+		'Maatwebsite\Excel\ExcelServiceProvider',
+		'Scalia\SphinxSearch\SphinxSearchServiceProvider',
+		'Barryvdh\DomPDF\ServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
 
 		/*
 		 * Application Service Providers...
@@ -192,6 +196,10 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+		'Excel' => 'Maatwebsite\Excel\Facades\Excel',
+		'SphinxSearch' => 'Scalia\SphinxSearch\SphinxSearchFacade',
+		'PDF' => 'Barryvdh\DomPDF\Facade',
+		'Carbon'			=>'Carbon\Carbon',
 
 	],
 
